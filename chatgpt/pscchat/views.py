@@ -3,7 +3,6 @@ from django.shortcuts import render
 from django.http import JsonResponse
 import requests
 
-# client = OpenAI(api_key='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')
 
 def index(requests):
     return render(requests, 'index.html')
