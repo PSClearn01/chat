@@ -1,5 +1,4 @@
 from django.shortcuts import render
-# from openai import OpenAI
 from django.http import JsonResponse
 import requests
 
